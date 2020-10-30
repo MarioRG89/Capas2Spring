@@ -19,6 +19,7 @@ public class Controlador {
 		try {
 			double numIMC=calc.calcularImc(nombreRecibido);
 			model.addAttribute("imc",numIMC);
+			model.addAttribute("nombre", nombreRecibido);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

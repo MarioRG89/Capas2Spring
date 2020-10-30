@@ -8,6 +8,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-El valor del imc de la persona es ${imc }
+El valor del imc de la ${nombre } es ${imc }
 </body>
 </html>
